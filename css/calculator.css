@@ -1,0 +1,56 @@
+
+        #main_logo{
+            position: absolute;
+            width: 20%;
+            margin-left: -25px;
+            margin-right: 50px;
+        }
+
+        /*#search_div{
+            float: left;
+        }*/
+
+        #search{
+            width: 200px;
+            margin-top: 15px;
+            height: .5in;
+        }
+
+        .calculator {
+            width: 400px;
+            margin: 50px auto;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+        }        
+    
+        .calculator #display {
+            width: calc(100% - 40px);
+            margin-bottom: 20px;
+            padding: 10px;
+            font-size: 30px;
+        }
+    
+        .calculator .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+    
+        .calculator button {
+            padding: 15px;
+            font-size: 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            background-color: #f0f0f0;
+        }
+    
+        .calculator button:hover {
+          background-color: rgb(226, 226, 255);
+          transform: scale(1.05);
+        }
+        .navbar {
+            min-height: 64px; /* Adjust the height as needed */
+        }
