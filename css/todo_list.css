@@ -11,7 +11,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 .container {
     max-width: 600px;
     margin: 50px auto;
@@ -70,14 +69,8 @@ li {
     cursor: pointer;
 }
 
-.todo_list button:hover {
-  background-color: rgb(226, 226, 255);
-    transform: scale(1.05);
-}
-
-
-/* .btn{
+.btn{
     width: 100px;
-    float: right;
-    margin-right: 50px;
-} */
+    float: center;
+    margin: 10px;
+}

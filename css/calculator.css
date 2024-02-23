@@ -54,3 +54,8 @@
         .navbar {
             min-height: 64px; /* Adjust the height as needed */
         }
+        .btn{
+            width: 100px;
+            float: center;
+            margin: 10px;
+        }
